@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    @dd($comic)
+    <h2>
+        {{ $comic->title }}
+    </h2>
 @endsection

@@ -22,3 +22,5 @@ Route::get('/', function () {
 
 /* CRUD */
 Route::resource('comics', ComicController::class);
+
+//Route::get('/admin/houses/{house}', [ComicController::class, 'show'])->name('admin.comics.show');
