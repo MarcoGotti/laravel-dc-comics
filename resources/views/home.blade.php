@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('pageTitle'){{-- per la Home page lascio il titolo della Repo/Folder  --}}
+@section('pageTitle', 'Home Admin'){{-- per la Home page lascio il titolo della Repo/Folder  --}}
 
 @section('content')
     <h1>HomePage</h1>
