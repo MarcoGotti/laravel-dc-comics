@@ -1,0 +1,14 @@
+/* #region Header */
+header {
+    nav {
+        .text_white {
+            color: white;
+        }
+    }
+}
+/* #endregion Header */
+/* #region Main */
+main {
+    min-height: calc(100vh - 6rem);
+}
+/* #endregion Main */

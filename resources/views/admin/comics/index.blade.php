@@ -3,7 +3,9 @@
 @section('pageTitle')
 
 @section('content')
-    <h1 class="p-3 bg-dark text-white text-center">Comics list</h1>
+    <h1 class="p-3 bg-dark text-white text-center">
+        <span class="text-primary">Admin:</span> Comics list
+    </h1>
     <div class="container py-5">
 
         <div class="table-responsive">

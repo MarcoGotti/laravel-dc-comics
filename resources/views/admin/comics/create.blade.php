@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1 class="p-3 bg-dark text-white text-center">Insert a new comic in DB</h1>
+    <h1 class="p-3 bg-dark text-white text-center"><span class="text-primary">Admin:</span> Insert a new comic in DB</h1>
     <div class="container py-5">
 
         <form action="{{ route('comics.store') }}" method="post">
