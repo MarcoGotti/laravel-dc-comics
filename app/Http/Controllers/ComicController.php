@@ -34,9 +34,11 @@ class ComicController extends Controller
         //dd($request->title);
         $data = $request->all();
 
-        $comic = new Comic();
+        /* $comic = new Comic();
         $comic->title = $data['title'];
-        $comic->save();
+        $comic->save(); */
+
+        $comic = Comic::create($data);
 
         return to_route('comics.show', $comic);
     }
