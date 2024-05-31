@@ -12,3 +12,11 @@ main {
     min-height: calc(100vh - 6rem);
 }
 /* #endregion Main */
+
+.height_150 {
+    height: 150px;
+}
+
+.height_60 {
+    height: 60px;
+}

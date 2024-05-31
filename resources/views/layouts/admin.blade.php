@@ -19,13 +19,13 @@
 
 </head>
 
-<body class="antialiased">
+<body class="antialiased bg-primary">
 
-    @include('partials.header')
-    <main class="bg-warning">
+
+    <main>
         @yield('content')
     </main>
-    @include('partials.footer')
+
 
 </body>
 
