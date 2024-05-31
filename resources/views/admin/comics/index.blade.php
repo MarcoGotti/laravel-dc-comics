@@ -27,7 +27,7 @@
                             <td>
                                 <a href="{{ route('comics.show', $comic) }}">View</a>
                                 |
-                                <a href="">Edit</a>
+                                <a href="{{ route('comics.edit', $comic) }}">Edit</a>
                                 |
                                 <a href="">Delete</a>
                                 |
