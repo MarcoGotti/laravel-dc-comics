@@ -9,7 +9,7 @@
         <a class="nav-link text_white {{ Route::currentRouteName() === 'contacts' ? 'bg-warning text-dark fw-bolder' : '' }}"
             href="{{ route('contacts') }}">Contacts</a>
 
-        <a class="nav-link 
+        <a class="btn btn-secondary btn-sm position-fixed top-0 end-0 m-2
         {{ Route::currentRouteName() === 'home' ||
         Route::currentRouteName() === 'about' ||
         Route::currentRouteName() === 'contacts' ||

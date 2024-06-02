@@ -23,4 +23,10 @@ class PageController extends Controller
     {
         return view('about');
     }
+
+    public function dashboard()
+    {
+        $comics = Comic::all();
+        return view('admin.dashboard', compact('comics'));
+    }
 }
